@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-    background-color: violet;
+    /* background-color: #61698a; */
     height: 100vh;
 }
 
@@ -13,7 +13,8 @@ header{
     position: relative;
     text-align: center;
     color: white;
-    background-color: violet;
+    background-color: #010612;
+    box-shadow: 2rem 0 8rem 11rem #010612;
 }
 
 header img{
@@ -25,9 +26,10 @@ header img{
 
 .name{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -65%);
     font-size: 2.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 2rem #bb75ef;
 }
