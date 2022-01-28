@@ -37,7 +37,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10rem 0;
+    margin: 12rem 0 14rem;
 }
 
 main h1{
@@ -51,11 +51,18 @@ section{
 }
 
 section a{
-    margin: 2rem;
+    margin: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+section a p{
+    margin: 1rem;
 }
 
 footer{
-    position: absolute;
     bottom: 0;
     width: 100vw;
     height: 2rem;
@@ -64,6 +71,7 @@ footer{
     justify-content: center;
     background-color: #010612;
     box-shadow: 0rem 0 8rem 11rem #010612;
+    margin-top: 8rem;
 }
 
 footer a{
