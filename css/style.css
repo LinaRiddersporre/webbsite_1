@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-    /* background-color: #61698a; */
+    position: relative;
     height: 100vh;
 }
 
@@ -20,8 +20,6 @@ header{
 header img{
     width: 100vw;
     height: 15rem;
-    /* filter: drop-shadow(2.7rem 5rem 2rem #00030b); */
-    
 }
 
 .name{
@@ -32,4 +30,36 @@ header img{
     font-size: 2.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 0 0 2rem #bb75ef;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #010612;
+    box-shadow: 0rem 0 8rem 11rem #010612;
+}
+
+footer a{
+    padding: 0rem 4rem;
+    text-decoration: none;
+    color: white;
+   
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #bb75ef;
 }
